@@ -1,4 +1,4 @@
-# Link to live website: https://marijan10marijan.github.io/dark-light-mode-vanilla/
+### Link to live website: https://marijan10marijan.github.io/dark-light-mode-vanilla/
 
 # Dark/Light Theme Switcher
 
