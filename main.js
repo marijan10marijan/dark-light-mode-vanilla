@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         themeLabel.textContent = text;
         themeLabel.style.padding = '.25rem 1rem';
         themeLabel.style.display = 'block';
+        themeLabel.style.border = '1px solid var(--text-color)'
 
     };
 
@@ -98,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hideLabel = () => {
         themeLabel.textContent = '';
         themeLabel.style.padding = '0';
+        themeLabel.style.border = 'none'
         themeLabel.style.display = 'none';
     };
 
