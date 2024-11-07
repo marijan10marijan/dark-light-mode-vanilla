@@ -89,13 +89,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Funkcija za prikazivanje teksta
     const showLabel = (text) => {
         themeLabel.textContent = text;
-        themeLabel.style.padding = '.25rem 1rem'
+        themeLabel.style.padding = '.25rem 1rem';
+        themeLabel.style.display = 'block';
+
     };
 
     // Funkcija za skrivanje teksta
     const hideLabel = () => {
         themeLabel.textContent = '';
-        themeLabel.style.padding = '0'
+        themeLabel.style.padding = '0';
+        themeLabel.style.display = 'none';
     };
 
     // Dodaj event listener za hover preko moonIcon (Dark tema)

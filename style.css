@@ -78,7 +78,7 @@ body{
 } 
 #theme-label {
     position: absolute;
-    top: 105%;
+    top: 105%; 
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid var(--text-color);
